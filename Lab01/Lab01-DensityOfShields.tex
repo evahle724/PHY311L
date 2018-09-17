@@ -1,0 +1,60 @@
+\documentclass[
+    letterpaper, twocolumn, graphicx,
+    amsmath, amsfonts, amssymb,
+    nofootinbib
+]{revtex4-1}
+\usepackage{graphicx, hyperref, dcolumn, float, caption, siunitx}
+
+\begin{document}
+
+%Preamble
+    \title{Lab 1: Measuring the (Volumentric) Density of Shields}
+    
+    \author{ME Karahadian}
+    \author{EK Vahle}
+    \author{TJ Wiegman\(^a\)}
+    \affiliation{Department of Physics \& Engineering, Point Loma Nazarene University}
+    
+    \date{\today}
+    
+
+%Abstract
+    \begin{abstract}
+        Lorem ipsum abstract.
+        \phantom{\footnote{twiegman2020@pointloma.edu}}
+    \end{abstract}
+    
+    \maketitle
+    %\tableofcontents
+    
+%Data and Analysis
+    \section*{Data \& Analysis}
+    Lorem ipsum. See Table \ref{dataTable} for data.
+    
+    \begin{table*}[hbt!]
+        \caption{Example caption.
+            \label{dataTable}
+        }
+        
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            
+            \textbf{Material} & \textbf{Sample} & \textbf{Mass (g)} & \textbf{Width (cm)} & \textbf{Height (cm)} & \textbf{Thickness (mm)}\\
+            \hline
+            1 & E & 3.88 \(\pm\) 0.01 & 7 \(\pm\) 0.05 & 7 \(\pm\) 0.05 & 0.077 \(\pm\) 0.005 \\
+            1 & F & 5.18 \(\pm\) 0.01 & 7 \(\pm\) 0.05 & 7 \(\pm\) 0.05 & 0.101 \(\pm\) 0.005 \\
+            \hline
+            2 & J & 12.67 \(\pm\) 0.01 & 6.98 \(\pm\) 0.05 & 6.96 \(\pm\) 0.05 & 0.096 \(\pm\) 0.005 \\
+            2 & K & 16.19 \(\pm\) 0.01 & 6.99 \(\pm\) 0.05 & 6.91 \(\pm\) 0.05 & 0.126 \(\pm\) 0.005 \\
+            2 & L & 20.95 \(\pm\) 0.01 & 6.99 \(\pm\) 0.05 & 6.94 \(\pm\) 0.05 & 0.159 \(\pm\) 0.005 \\
+            2 & M & 26.23 \(\pm\) 0.01 & 6.9 \(\pm\) 0.05 & 7 \(\pm\) 0.05 & 0.197 \(\pm\) 0.005 \\
+            \hline
+            3 & Q & 46.34 \(\pm\) 0.01 & 6.31 \(\pm\) 0.05 & 6.31 \(\pm\) 0.05 & 0.095 \(\pm\) 0.005 \\
+            3 & R & 65.89 \(\pm\) 0.01 & 5.3 \(\pm\) 0.05 & 5.3 \(\pm\) 0.05 & 0.255 \(\pm\) 0.005 \\
+            3 & S & 116.7 \(\pm\) 0.01 & 5.3 \(\pm\) 0.05 & 5.3 \(\pm\) 0.05 & 0.401 \(\pm\) 0.005 \\
+            3 & T & 218.4 \(\pm\) 0.1 & 5.3 \(\pm\) 0.05 & 5.3 \(\pm\) 0.05 & 0.619 \(\pm\) 0.005 \\
+            
+            \hline
+        \end{tabular}
+    \end{table*}
+\end{document}
